@@ -22,7 +22,7 @@ public class DeptConsumerController {
     //@Autowired
     //private DeptProvider deptProvider;
 
-    private static final String REST_URL_PREFIX = "http://localhost:8001";
+    private static final String REST_URL_PREFIX = "http://SPRINGCLOUD-PROVIDER-DEPT";
 
     @RequestMapping("/consumer/dept/new")
     public Boolean add(Dept dept) {
