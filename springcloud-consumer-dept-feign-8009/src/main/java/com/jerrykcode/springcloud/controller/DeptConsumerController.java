@@ -19,8 +19,6 @@ public class DeptConsumerController {
     @Autowired
     private DeptClientService deptClientService;
 
-    private static final String REST_URL_PREFIX = "http://SPRINGCLOUD-PROVIDER-DEPT";
-
     @RequestMapping("/consumer/dept/new")
     public Boolean add(Dept dept) {
        return deptClientService.addDept(dept);
