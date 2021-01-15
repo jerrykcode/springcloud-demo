@@ -17,6 +17,7 @@
         <module name="springcloud-eureka-7002" />
         <module name="springcloud-eureka-7001" />
         <module name="springcloud-erueka-7001" />
+        <module name="springcloud-provider-dept-hystrix-8001" />
       </profile>
     </annotationProcessing>
   </component>

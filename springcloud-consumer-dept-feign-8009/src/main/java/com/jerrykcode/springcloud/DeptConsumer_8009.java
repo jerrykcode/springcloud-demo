@@ -9,7 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 @SpringBootApplication
 @EnableFeignClients(basePackages = {"org.jerrykcode.springcloud"})
 @EnableEurekaClient
-@ComponentScan("com.jerrykcode.springcloud")
+@ComponentScan({"com.jerrykcode.springcloud","org.jerrykcode.springcloud"})
 public class DeptConsumer_8009 {
     public static void main(String[] args) {
         SpringApplication.run(DeptConsumer_8009.class);

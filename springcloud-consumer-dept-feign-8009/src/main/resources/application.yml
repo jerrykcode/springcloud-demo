@@ -5,6 +5,11 @@ spring:
     loadbalancer:
       ribbon:
         enabled: false
+#feign hystrix
+feign:
+  hystrix:
+    enabled: true
+
 #eureka
 eureka:
   client:
